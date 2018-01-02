@@ -1,0 +1,25 @@
+/* 
+Examples of other imports:
+  @import 'base.css';
+  @import 'layout.css';
+  @import 'typography.css';
+*/
+
+@import 'import-styles.css';
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+}
+
+header {
+  background-color: orange;
+}
+
+p {
+  font-size: 20px;
+}
