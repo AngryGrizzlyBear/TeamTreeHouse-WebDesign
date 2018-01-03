@@ -1,0 +1,57 @@
+body {
+  color: #878787;
+  margin: 0;
+}
+
+h1 {  
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #48525c;
+}
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
+}
+
+.main-header {
+  background-color: orange;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
