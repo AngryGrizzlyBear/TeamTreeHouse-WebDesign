@@ -3,17 +3,17 @@
 body {
   color: #878787;
   margin: 0;
-  font-size: 150%;
+  font-size: 1em; 
 }
 
 h1 {  
-  font-size: 90px;
+  font-size: 5.625em; /* 90 / 16 */
   color: white;
 }
 
 h2 {
   font-size: 53px;
-}
+} 
 
 h3 {
   font-size: 20px;
@@ -50,11 +50,12 @@ a:active {
 
 .main-header {
   background-color: orange;
+  font-size: 2em;
 }
 
 .title {
   color: white;
-  font-size: 26px;
+  font-size: 1.625em; /* 26px/16 */
 }
 
 .primary-content, 
