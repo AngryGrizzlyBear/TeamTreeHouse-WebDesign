@@ -49,6 +49,7 @@ a:active {
 
 .main-header {
   background-color: orange;
+   width: 960px; 
 }
 
 .title {
