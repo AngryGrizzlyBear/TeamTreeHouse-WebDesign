@@ -1,6 +1,9 @@
 /* Base Styles -------------------- */
+* {
+  box-sizing: border-box;  
+}
 
-body {
+ body {
   color: #878787;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,6 +31,11 @@ h3 {
   margin-bottom: 1.7em; /* 34px */
 }
 
+img {
+ max-width: 100%;
+ margin-bottom: 20px;
+}
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -52,7 +60,7 @@ a:active {
 .main-header {
   background-color: #ffa949;
   padding-top: 170px;
-  height: 850px;
+  height: 850px;  
 }
 
 .title {
@@ -89,7 +97,7 @@ a:active {
   margin-top: 20px;
   display: inline-block;
 }
-
+ 
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -104,10 +112,11 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 860px;
+  width: 75%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
+  max-width: 900px;
 }
 
 .wildlife {
