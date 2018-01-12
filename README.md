@@ -8,3 +8,9 @@ Update. May Extend.
 Pretty sure I'm going to take the rest of this week off to rest.
 
 Enjoyable week is enjoyable. :)
+
+
+Second Update:
+
+Taking the whole week off, including the weekend.
+
