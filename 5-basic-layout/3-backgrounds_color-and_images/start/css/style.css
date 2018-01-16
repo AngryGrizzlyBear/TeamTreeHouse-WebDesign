@@ -64,7 +64,8 @@ a:active {
   height: 850px;
   background-image: url('../img/mountains.jpg');
   background-size: 40%;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .title {
