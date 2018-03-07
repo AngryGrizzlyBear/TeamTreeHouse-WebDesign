@@ -1,0 +1,42 @@
+/* ---------------------
+	Page Styles
+------------------------ */
+
+body {
+	font-family: 'Alegreya', Georgia, serif;
+	font-weight: normal;
+	padding: 2.95em 0;
+	background: #f9f9f9;
+	color: #333;
+	font-size: ;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+p {
+  	font-size: ;
+	margin: 1em 0;
+}
+
+li {
+	font-size: ;
+}
+
+li li {
+  	font-size: ;
+}
+
+h1 {
+	font-size: ;
+}
+
+h2 {
+	font-size: ;
+}
+
+h3 {
+	font-size: ;
+}
+

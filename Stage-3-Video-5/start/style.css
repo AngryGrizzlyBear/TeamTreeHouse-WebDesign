@@ -1,0 +1,51 @@
+/* ---------------------
+	Page Styles
+------------------------ */
+
+body {
+	font-family: 'Alegreya', Georgia, serif;
+	font-weight: normal;
+	color: #333;
+	font-size: 1.25em;
+	background: #f9f9f9;
+}
+
+.container {
+	max-width: 37.5rem;
+	margin: 0 auto;
+	padding: 4.2em 0;
+}
+
+p {
+	line-height: ;
+	margin: ;
+}
+
+p + p {
+	text-indent: ;
+}
+
+h1 {
+	font-size: 2.441em;
+	line-height: ;
+	margin: ;
+}
+
+h2 {
+	font-size: 1.953em;
+	line-height: ;
+	margin: ;
+}
+
+h3 {
+	font-size: 1.563em;
+	line-height: ;
+	margin: ;
+}
+
+img {
+	margin: ;
+	padding: ;
+	max-width: ;
+}
+

@@ -1,0 +1,41 @@
+/* ---------------------
+	Page Styles
+------------------------ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	padding: 2.95em 0;
+	background: #f9f9f9;
+	color: #333;
+	font-size: 2em;
+	line-height: 1.62;
+}
+
+p {
+	margin: 1em 0;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+
