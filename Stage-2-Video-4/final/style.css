@@ -1,0 +1,33 @@
+/* ---------------------
+	Page Styles
+------------------------ */
+
+body {
+  	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding: 2.95em 0;
+	background: #f9f9f9;
+	color: #333;
+	font-size: 2em;
+	line-height: 1.62;
+}
+
+p {
+	margin: 1em 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
