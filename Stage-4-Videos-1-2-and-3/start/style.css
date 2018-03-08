@@ -1,0 +1,41 @@
+/* ---------------------
+	Page Styles
+------------------------ */
+
+body {
+	font-family: 'Alegreya', Georgia, serif;
+	font-weight: normal;
+  text-align: center;
+	color: #333;
+	font-size: 2em;
+  padding: 2em 0 2em;
+	background: #f9f9f9;
+}
+
+.container {
+	max-width: 37.5rem;
+	margin: 0 auto;
+	padding: 4.2em 0;
+}
+
+p {
+	line-height: 1.6;
+	margin: 0;
+}
+
+a {
+  color: #3285b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23668c;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
