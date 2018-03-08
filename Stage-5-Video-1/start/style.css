@@ -18,7 +18,7 @@ Blues: #6b6d85 and #47495d;
 Dark Navy: #1b1b21;  */
 
 /* Webfonts */
-
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,400italic|Alegreya+Sans:400,400italic|Alegreya:400italic,900italic);
 
 /* Basic Elements */
 html {
@@ -26,6 +26,9 @@ html {
 	padding: 0;
 }
 body { 
+  font-family: 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+  font-size: 1.25em;
+  line-height: 1.6;
 	margin: 0; 
 	padding: 0;
    color: #282932; 
@@ -33,21 +36,34 @@ body {
 }
 
 p { 
+  margin: 0;
 }
 
 p + p {
+  text-indent: 1.5em;
 }
 
 h1,h2,h3,h4,h5,h6 {
+  font-family: 'Alegreya', Georgia, serif;
+  font-weight: normal;
+  font-style: italic;
 }
 
 h1 {
+  font-size: 3.157em;
+  line-height: 1.1;
 }
 
 h2 {
+  font-size: 2.369em;
+  line-height: 1.15;
+  margin: 0 0 .54em;
 }
 
 h3 { 
+  font-size: 1.777em;
+  line-height: 1.2;
+  margin: .9em 0 .62em;
 }
 
 ul {
@@ -71,6 +87,8 @@ a:hover, a:focus, a:active {
 }
 
 abbr {
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+  text-transform: lowercase;
 }
 
 ::selection {
