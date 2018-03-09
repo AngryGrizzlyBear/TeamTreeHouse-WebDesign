@@ -99,30 +99,61 @@ abbr {
 /* Specific Styles */
 
 header {
+  padding: 10em 4%;
+  text-align: center;
 }
 
 header h1 {
+  font-size: 6.2em;
+  font-weight: 900;
+  color: #282932;
+  margin: 0;
 }
 
-header h2 { 
+header h2 {
+  font-family: 'Alegreya Sans', Verdana, Tahoma, sans-serif; 
+  font-size: 1.777em;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  font-style: normal;
 }
 
 header abbr {
+  text-transform: uppercase;
 }
 
 .summary {
+  color: #f6f4ec;
+  background: #9bc152;
+  text-align: center;
+  padding: 1.5em 6%;
 }
 
 .summary p {
+  font-size: 1.333em;
+  max-width: 44rem;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-style: italic; 
 }
 
 .summary p + p {
+  text-indent: 0;
+  font-style: normal;
+  font-size: 1em;
+  margin-top: .2em;
+  color: #708647;
 }
 
 .summary a {
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+  color: #708647;
+  border-bottom: 1px solid #708647;
 }
 
 .summary a:hover {
+  color: #f6f4ec;
+  border-bottom: 1px solid #f6f4ec;
 }
 
 .preamble, .requirements {
