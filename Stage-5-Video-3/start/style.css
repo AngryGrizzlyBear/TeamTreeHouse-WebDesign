@@ -157,18 +157,30 @@ header abbr {
 }
 
 .preamble, .requirements {
+  background: #282932;
+  padding: 4em 6%;
 }
 
 .preamble h3, .requirements h3 {
+  max-width: 34rem;
+  margin: 0 auto .62em;
 }
 
 .preamble p, .requirements p {
+  max-width: 34rem;
+  margin: 0 auto;
+  color: #f6f4ec;
+
 }
 
 .requirements a {
+  color: #f6f4ec;
+  border-bottm: 1px solid #f6f4ec;
 }
 
 .requirements a:hover {
+  color: #9bc152;
+  border-bottm: 1px solid #9bc152;
 }
 
 .requirements p:last-of-type {
@@ -181,39 +193,63 @@ header abbr {
 }
 
 .benefits {
+  background: #1b1b21;
+  padding: 4em 6%;
 }
 
 .benefits h3 {
+  max-width: 34rem;
+  margin: 0 auto .62em;
+  color: #8b8d9b;
 }
 
 .benefits p {
+  max-width: 34rem;
+  margin: 0 auto;
+  color: #6d6f81;
 }
 
 .explanation, .participation {
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .explanation {
+  float: left;
+  padding: 4em 10% 4em 8%;
 }
 
 .participation {
+  display: inline-block;
+  padding: 4em 8% 5em 10%;
+  background: #9bc152;
 }
 
 .explanation h3, .participation h3 {
+  margin: 0 auto .62rem;
 }
 
 .explanation p, .participation p {
+  margin: 0 auto;
 }
 
 .participation h3 {
+  color: #f6f4ec;
 }
 
 .participation a {
+  color: #282932;
+  border-bottom: 1px solid #282932;
 }
 
 .participation a:hover {
+  color: #f6f4ec;
+  border-bottom: 1px solid #f6f4ec;
 }
 
 .participation p:last-of-type a:nth-of-type(1), .participation p:last-of-type a:nth-of-type(2) {
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+  text-transform: lowercase;
 }
 
 footer {
