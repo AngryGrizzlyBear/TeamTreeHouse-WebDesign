@@ -76,7 +76,8 @@ li {
 }
 
 a:link { 
-	text-decoration: none;
+  text-decoration: none;
+  transition: all 0.4s ease;
 
 }
 a:visited { 
@@ -458,22 +459,43 @@ aside {
 
 @media (min-width: 47em) {
   .benefits {
+    position: absolute;
+    float: left;
+    background: none;
+    max-width: 7.5rem;
+    text-align: right;
+    margin-top: 12em;
+    left: 50%;
+    margin-left: -25.5rem;
   }
 
 .benefits h3 {
+  font-size: 1em;
+  margin: 0;
+  font-family: 'Alegreya Sans SC', 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+  font-style: normal;
+
   }
 
 .benefits p {
+  font-size: .75em;
+  line-height: 1.4;
   }
 }
 
 @media (min-width: 54em) {
   .benefits {
+    max-width: 8rem;
+    margin-top: 12.5rem;
+    margin-left: -28rem;
   }
 }
 
 @media (min-width: 64.125em) {
   .benefits {
+    max-width: 9.4rem;
+    margin-top: 13.1em;
+    margin-left: -34rem;
   }
 
   aside {
