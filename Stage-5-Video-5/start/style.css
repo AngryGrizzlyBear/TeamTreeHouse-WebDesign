@@ -365,12 +365,15 @@ aside {
 
 @media (max-width: 64em) {
   body {
+    font-size: 1.125em;
   }
 
   .summary p {
+    max-width: 40rem;
   }
 
   .explanation h3, .participation h3, .preamble h3, .requirements h3, .benefits h3 {
+    max-width: 27.5rem;
   }
 
   .explanation p, .participation p, .preamble p, .requirements p, .benefits p {
@@ -379,51 +382,76 @@ aside {
 
 @media (max-width: 54em) {
   body {
+    font-size: 1em;
   }
 
   .summary p {
+    max-width: 34rem;
   }
 }
 
 @media (max-width: 47em) {
-  header h1 {
+  header h1 { 
+    font-size: 4.5em;
   }
 
   header h2 {
+    font-size: 1.333em;
   }
 
   .explanation, .participation {
+    width: 100%;
+    padding: 4em 6%;
   }
 }
 
 @media (max-width: 34em) {
   header {
+    padding: 6em 4%;
   }
   header h1 {
+    font-size: 2.6em;
+    line-height: 0.8;
   }
 
   header h2 {
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    margin-top: 0.3em;
   }
 
   .summary p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 27.5rem;
   }
 
   .summary p + p {
+    font-size: .9em;
   }
 
   h3 {
+    font-size: 1.333em;
   }
 
   .design-selection {
+    width: 100%;
+    border-right: none;
+    padding: 0 3%;
   }
 
   .design-selection li:last-of-type {
+    border-bottom: 1px solid #47495d;
+    padding-bottom: 3em;
   }
 
   .design-archives {
+    padding-top: 3em;
+    width: 100%;
   }
 
   .zen-resources {
+    width: 100%;    
   }
 }
 
