@@ -1,2 +1,16 @@
 /* Attribute Selectors ------------- */
 
+
+.form-contact {
+    padding: 20px 24px;
+    background:
+}
+
+#container {
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="email"] {
+    background: #fdfee6;
+}
